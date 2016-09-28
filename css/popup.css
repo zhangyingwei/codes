@@ -1,0 +1,66 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: 
+}
+a:hover{
+	text-decoration:none;
+}
+.content{
+	width: 800px;
+}
+.content .top{
+	width:100%;
+	border-bottom: 1px dotted #a0a0a0;
+	padding: 8px 8px;
+}
+.content .top input{
+	float: left;
+	width:80%;
+}
+
+.content .top button{
+	margin-left: 20px;
+	width:15%;
+}
+
+.bottom{
+	height: 450px;
+}
+.bottom .left{
+	background-color: #F4F4F4;
+	border-right: 1px solid #a5a5a5;
+	width: 180px;
+	height: 100%;
+	float: left;
+	overflow:auto;
+}
+.bottom .left .title{
+	text-align: left;
+	font-size: 110%;
+	padding: 10px;
+}
+.bottom .left ul{
+	padding: 10px;
+	list-style: none;
+	margin: 0;
+}
+.bottom .left li{
+	border-bottom:  1px solid #000;
+	padding: 5px;
+	font-family: "等线"
+}
+.bottom .left li:hover{
+	font-weight: bold;
+	cursor: pointer;
+}
+.bottom .right{
+	background-color: #F4F4F4;
+	float: left;
+	width: 620px;
+	height: 100%;
+}
